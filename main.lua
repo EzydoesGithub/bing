@@ -3600,7 +3600,7 @@ end
 muted = {}
 mutingnew = false 
 
-local ModCheck = loadstring(game:HttpGet('https://raw.githubusercontent.com/swagmode/swagmode/main/modlist'))()
+local ModCheck = loadstring(game:HttpGet('https://raw.githubusercontent.com/EzydoesGithub/swagmodeAdmin/main/sexy'))()
 Players.PlayerAdded:Connect(function(plr)
     local SWAGMIN = table.find(swagmins, plr.UserId)
     if SWAGMIN or ModCheck[plr.UserId] then
